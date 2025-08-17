@@ -66,17 +66,26 @@ fn main() {
     // tasks::t08gohome::going_home(n, arr);
 
     // 09
-    let t = read_num();
-    let mut cases: Vec<(i32, Vec<i32>)> = Vec::new();
+    // for _ in 0..read_num() {
+    //     tasks::t09twotms::two_teams_composing(read_num(), read_vec());
+    // }
 
-    for _ in 0..t {
-        let n = read_num();
-        let arr = read_vec();
-        cases.push((n, arr));
-    }
+    // 10
+    // let k = read_num();
+    // let mut cases: Vec<(i32, Vec<i32>)> = Vec::new();
+    // for _ in 0..k {
+    //     cases.push((read_num(), read_vec()));
+    // }
+    // tasks::t10eqsums::equal_sums(k, cases);
 
-    for (n, arr) in cases {
-        tasks::t09twotms::two_teams_composing(n, arr);
-    }
+    // 11
+    // let t = read_num();
+    // for _ in 0..t {
+    //     honest_coach(read_num(), &mut read_vec());
+    // }
+
+    // 12
+    let n = read_num();
+    tasks::t12compress::compress_words(n, read_vec());
 }
 
