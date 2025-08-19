@@ -1,27 +1,27 @@
 mod tasks;
 
-fn read_num<T: std::str::FromStr>() -> T
-where
-    T::Err: std::fmt::Debug,
-{
-    let mut input = String::new();
-    std::io::stdin().read_line(&mut input).unwrap();
-    input.trim().parse::<T>().unwrap()
-}
-
-fn read_vec<T: std::str::FromStr>() -> Vec<T>
-where
-    T::Err: std::fmt::Debug,
-{
-    let mut input = String::new();
-    std::io::stdin().read_line(&mut input).unwrap();
-    let arr: Vec<T> = input
-        .split_whitespace()
-        .map(|s| s.parse::<T>().unwrap())
-        .collect();
-
-    arr
-}
+// fn read_num<T: std::str::FromStr>() -> T
+// where
+//     T::Err: std::fmt::Debug,
+// {
+//     let mut input = String::new();
+//     std::io::stdin().read_line(&mut input).unwrap();
+//     input.trim().parse::<T>().unwrap()
+// }
+//
+// fn read_vec<T: std::str::FromStr>() -> Vec<T>
+// where
+//     T::Err: std::fmt::Debug,
+// {
+//     let mut input = String::new();
+//     std::io::stdin().read_line(&mut input).unwrap();
+//     let arr: Vec<T> = input
+//         .split_whitespace()
+//         .map(|s| s.parse::<T>().unwrap())
+//         .collect();
+//
+//     arr
+// }
 
 fn main() {
     // 01
@@ -85,7 +85,13 @@ fn main() {
     // }
 
     // 12
-    let n = read_num();
-    tasks::t12compress::compress_words(n, read_vec());
+    // let n = read_num();
+    // tasks::t12compress::compress_words(n, read_vec());
+
+    // 13
+    // tasks::t13booleval::bool_eval();
+
+    // 14
+    tasks::t14truthtab::run();
 }
 

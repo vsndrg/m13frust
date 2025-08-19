@@ -1,6 +1,6 @@
-/Users/vsndrg/Home/wrk/m13frust/target/debug/deps/m13frust-8a226fb5d85ba90a.d: src/main.rs src/tasks/mod.rs src/tasks/t01sum.rs src/tasks/t02maxn.rs src/tasks/t03reverse.rs src/tasks/t04cntvow.rs src/tasks/t05twosum.rs src/tasks/t06threesum.rs src/tasks/t07threesumc.rs src/tasks/t08gohome.rs src/tasks/t09twotms.rs src/tasks/t10eqsums.rs src/tasks/t11coach.rs src/tasks/t12compress.rs
+/Users/vsndrg/Home/wrk/m13frust/target/debug/deps/m13frust-8a226fb5d85ba90a.d: src/main.rs src/tasks/mod.rs src/tasks/t01sum.rs src/tasks/t02maxn.rs src/tasks/t03reverse.rs src/tasks/t04cntvow.rs src/tasks/t05twosum.rs src/tasks/t06threesum.rs src/tasks/t07threesumc.rs src/tasks/t08gohome.rs src/tasks/t09twotms.rs src/tasks/t10eqsums.rs src/tasks/t11coach.rs src/tasks/t12compress.rs src/tasks/t13booleval.rs src/tasks/t14truthtab.rs
 
-/Users/vsndrg/Home/wrk/m13frust/target/debug/deps/m13frust-8a226fb5d85ba90a: src/main.rs src/tasks/mod.rs src/tasks/t01sum.rs src/tasks/t02maxn.rs src/tasks/t03reverse.rs src/tasks/t04cntvow.rs src/tasks/t05twosum.rs src/tasks/t06threesum.rs src/tasks/t07threesumc.rs src/tasks/t08gohome.rs src/tasks/t09twotms.rs src/tasks/t10eqsums.rs src/tasks/t11coach.rs src/tasks/t12compress.rs
+/Users/vsndrg/Home/wrk/m13frust/target/debug/deps/m13frust-8a226fb5d85ba90a: src/main.rs src/tasks/mod.rs src/tasks/t01sum.rs src/tasks/t02maxn.rs src/tasks/t03reverse.rs src/tasks/t04cntvow.rs src/tasks/t05twosum.rs src/tasks/t06threesum.rs src/tasks/t07threesumc.rs src/tasks/t08gohome.rs src/tasks/t09twotms.rs src/tasks/t10eqsums.rs src/tasks/t11coach.rs src/tasks/t12compress.rs src/tasks/t13booleval.rs src/tasks/t14truthtab.rs
 
 src/main.rs:
 src/tasks/mod.rs:
@@ -16,3 +16,5 @@ src/tasks/t09twotms.rs:
 src/tasks/t10eqsums.rs:
 src/tasks/t11coach.rs:
 src/tasks/t12compress.rs:
+src/tasks/t13booleval.rs:
+src/tasks/t14truthtab.rs:

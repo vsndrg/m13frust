@@ -10,4 +10,6 @@ pub mod t09twotms;
 pub mod t10eqsums;
 pub mod t11coach;
 pub mod t12compress;
+pub mod t13booleval;
+pub mod t14truthtab;
 
